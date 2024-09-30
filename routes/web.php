@@ -19,3 +19,6 @@ Route::get('/', function () {
 Route::get('/home', function () {
     return view('page.home');
 });
+Route::get('/all-farmer', function () {
+    return view('page.all-farmer');
+});

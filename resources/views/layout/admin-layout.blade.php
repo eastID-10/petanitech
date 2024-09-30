@@ -4,11 +4,11 @@
     @include('components.head')
 </head>
 <body>
+    @include('components.nav')
 
     @include('components.header')
 
-    @include('components.nav')
-
+   
     @yield('content')
 
     @include('components.footer')

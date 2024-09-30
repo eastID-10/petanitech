@@ -1,8 +1,23 @@
-.header {
-    font-size: 20px;
-    padding: 15px;
-    background-color: #ffffff;
-    box-shadow:4px 4px 8px 4px rgba(0, 0, 0, 0.2);
-    color: rgb(38, 10, 149);
-    
+/* css header */
+.dropdown-menu {
+    background-image: linear-gradient(to bottom,  rgba(9, 248, 41, 0.5),rgba(97, 223, 225, 0.5), rgba(0, 255, 30, 0.5));
+ 
+    /* background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0.5), rgba(0, 0, 255, 0.5)); */
+   
+      
+}
+.nav-hover:active{
+    background-image: linear-gradient(to bottom,  rgba(9, 248, 41, 0.5),  rgba(0, 255, 30, 0.5));
+    border-radius: 5px;
+}
+/*  */
+.card {
+    margin-top: 10%;
+    box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 20px;
+    width: 200px;
   }
+
+  
